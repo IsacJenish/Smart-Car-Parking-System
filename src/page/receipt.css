@@ -1,0 +1,33 @@
+/* Receipt.css */
+
+.receipt-container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: cornsilk;
+  }
+  
+  .receipt-container h2 {
+    color: #333;
+  }
+  
+  .receipt-info {
+    margin-top: 20px;
+  }
+  
+  .receipt-info p {
+    margin: 8px 0;
+    font-size: 16px;
+    color: black;
+  }
+  
+  .receipt-info p:first-child {
+    font-weight: bold;
+  }
+  
+  /* Add more styles as needed */
+  
