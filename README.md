@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# Smart-Car-Parking-System
+Smart Car Parking Booking System 🚗💻
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🌟 Project Overview
+The Smart Car Parking Booking System is a web-based solution designed to streamline and enhance the process of vehicle parking management in urban areas. This system aims to address challenges like urban congestion and the scarcity of parking spots by offering a seamless, user-friendly experience. It is a cutting-edge solution aimed at revolutionizing the way people access and manage parking spaces.
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Through the platform, users can:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+Reserve and pay for parking spaces online.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Receive real-time availability updates.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+Make secure, contactless payments.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+For administrators, the system provides real-time monitoring of parking occupancy for efficient resource allocation and traffic management.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+✨ Key Features
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+User Registration & Login: Users register with details like Name, Date of Birth, Email ID, Gender, Phone Number, Address, and Password, then login to the system.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Admin Login: The system is supervised by an admin who manages bookings. The admin can see the parking cost, view user details, and view complete booking details. Only the admin can modify the parking cost.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Parking Availability: Users can click on spaces to view their availability. Booked spaces will be marked yellow.
+.
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+Optimized Parking Space Utilization: Effective management is crucial for optimizing the utilization of parking spaces.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+🏗️ System Design and FlowSystem Approach
 
-### Advanced Configuration
+The process begins with the user selecting the "Reserve Parking" option, where they may choose to log in or proceed as a guest24242424. Users then specify the location and check for availability252525. If spots are available, they choose a date and time, enter vehicle information, review the details/cost, and confirm the reservation26.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+FlowchartThe flowchart depicts the user and admin paths:User Flow: Login $\rightarrow$ Check Parking Availability $\rightarrow$ Book the Parking $\rightarrow$ Make Payment $\rightarrow$ END27.Admin Flow: Login $\rightarrow$ Parking Cost $\rightarrow$ User Detail $\rightarrow$ View Bookings $\rightarrow$ END28.
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
